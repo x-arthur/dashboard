@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+  letter-spacing: 0.5px;
+}
+
+body > header {
+  min-height: 96px;
+  background-color: #434343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > main {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 32px 0;
+  max-width: calc(100% - 32px);
+}
+
+body > main > #bemVindo > h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+body > main > #bemVindo > p {
+  margin-bottom: 2rem;
+  line-height: 24px;
+  color: #ccc;
+}
+
+body > main > #graficos > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+body > main > #graficos > p {
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+body > main > #graficos > #containerGraficos > div > h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1.5rem auto 1rem;
+}
+
+body > main > #teste > h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 5rem auto 1rem;
+}
+
+body > main > #teste > form {
+  max-width: 586px;
+  margin-bottom: 3rem;
+}
+
+body > main > #teste > form > label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+body > main > #teste > form > input[type="number"] {
+  display: block;
+  outline: none;
+  border: 1px solid orange;
+  border-radius: 0.2rem;
+  height: 32px;
+  width: 212px;
+  margin-bottom: 0.5rem;
+}
+
+body > main > #teste > form > #btn {
+  background-color: orange;
+  color: #f4f4f4;
+  padding: 0.4rem 1.8rem;
+  outline: none;
+  border: 1px solid orange;
+  border-radius: 0.5rem;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+footer {
+  min-height: 64px;
+  background-color: #434343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
